@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Infrastructure">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="official" value="highlight.xyz&#10;Sea Ranch Labs&#10;CloudFront / Next.js" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="240" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="suspect" value="highlight-global.xyz&#10;Dynadot&#10;Cloudflare / SPA" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="240" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="api" value="apihighlight.xyz&#10;deeplink.apihighlight.xyz&#10;PHP API disclosure" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="240" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="chat" value="cf.dot01mf.cfd&#10;CNAME chat.imkefu.uk&#10;Chat widget" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="390" width="240" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="suspect" target="api" style="endArrow=block;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="suspect" target="chat" style="endArrow=block;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
