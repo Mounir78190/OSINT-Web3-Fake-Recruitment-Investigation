@@ -1,0 +1,11 @@
+Type,Value,Confidence,Notes
+Domain,highlight-global.xyz,HIGH,Suspicious work portal impersonating Highlight
+Domain,apihighlight.xyz,HIGH,Suspicious API domain
+Domain,deeplink.apihighlight.xyz,HIGH,Suspicious API host
+Domain,cf.dot01mf.cfd,HIGH,Suspicious chat widget host
+Domain,chat.imkefu.uk,MEDIUM,CNAME target for suspicious chat host
+Referral Code,HB6XX,HIGH,Redacted case-specific referral code
+Phone,+1 812-979-XXXX,HIGH,Redacted communication indicator
+Phone,+33 6 89 91 XX XX,HIGH,Redacted communication indicator
+Email,gm@highlight.xyz,HIGH,Official reference contact only
+Email,support@highlight.xyz,HIGH,Official reference contact only

@@ -1,0 +1,28 @@
+{
+  "case_id": "TI-2026-001",
+  "classification": "TLP:CLEAR",
+  "confidence": "HIGH",
+  "iocs": {
+    "domains": [
+      "highlight-global.xyz",
+      "apihighlight.xyz",
+      "deeplink.apihighlight.xyz",
+      "cf.dot01mf.cfd",
+      "chat.imkefu.uk"
+    ],
+    "phones_redacted": [
+      "+1 812-979-XXXX",
+      "+33 6 89 91 XX XX"
+    ],
+    "referral_redacted": [
+      "HB6XX"
+    ],
+    "hashes_sha256": [
+      "ea42fceb0d7ee905dceb2d5ad0381a4026cd86174733028f43504e5414d7ccee",
+      "1a17fef77d49c0f10d3eb9521f183f5f673b1683bf476e7d2cb84c1db0396539",
+      "d78b04d4c20419c0dcae65d56de2a7dc5c2697de7cece7a654ab21e7fa2da2ff",
+      "5c8394162032c71d1c966c51f886f1ec178f922918e325dd46f74a0ad9b48764",
+      "eed4836bacb4b030cc05cfbd65af8a69888a5306f0d190f36410b8c0aa9177cb"
+    ]
+  }
+}
